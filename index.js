@@ -4,7 +4,6 @@ var twilio = require('twilio');
 var config = require('./config.js');
 
 var app = express();
-//var client = new twilio(config.sid, config.token);
 
 app.use(bodyParser.urlencoded({extended:false}));
 
